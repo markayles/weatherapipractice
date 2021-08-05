@@ -1,7 +1,7 @@
 var ajax = new XMLHttpRequest();
 ajax.onload = functionName;
 ajax.onerror = errorFunctionName;
-ajax.open("GET", "`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=1e26c4c0e6e44adb84fd29c67cfc558f&units=imperial`", true);
+ajax.open("GET", `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=1e26c4c0e6e44adb84fd29c67cfc558f&units=imperial`, true);
 ajax.send();
 function functionName(city) {
     console.log(this);
