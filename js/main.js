@@ -75,8 +75,8 @@ function errorFunctionName(e) {
 const form = document.querySelector('#EditCity');
 form.addEventListener('submit', (event) => {
     event.preventDefault();
-    let city = event.path[0][0].value;
-    functionName(city);
+    let newCityName = document.querySelector('#newCity').value;
+    getCityWeather(newCityName);
 });
 
 //const createList = (name, forecast, currentCondition, currentTemp, forecastLo, forecastHi, humidity) => {
