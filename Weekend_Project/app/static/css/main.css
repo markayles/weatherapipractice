@@ -1,0 +1,22 @@
+#weathercard {
+    margin: 0 auto;
+    float: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#floatingInput{
+    display: inline-block;
+    margin: 0 auto;
+    float: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: auto;
+    margin-left: 340px;
+
+}
+#body {
+    vertical-align: auto;
+    justify-content: center;
+    margin-top: 5%;
+    align-items: center;
+}
